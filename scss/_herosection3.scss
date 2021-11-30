@@ -1,0 +1,134 @@
+@import "config";
+
+.herosection3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+
+  h3 {
+    font-size: 24px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .left {
+    @include flex();
+    flex-direction: column;
+    background: rgba($color: $light-yellow, $alpha: 0.6);
+    .title {
+      font-size: 2rem;
+      margin-bottom: 5px;
+      align-items: center;
+      img {
+        width: 28px;
+        height: 28px;
+      }
+    }
+    .subtitle {
+      font-size: 1.3rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1rem;
+      text-align: center;
+      max-width: 400px;
+      margin-bottom: 20px;
+      color: #363535;
+    }
+  }
+  .right {
+    @include flex();
+    flex-direction: column;
+    background: rgba($color: $dark-yellow, $alpha: 1);
+
+    .title {
+      font-size: 2rem;
+      margin-bottom: 5px;
+    }
+    .subtitle {
+      font-size: 1.3rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1rem;
+      text-align: center;
+      max-width: 400px;
+      margin-bottom: 20px;
+      color: #363535;
+    }
+  }
+}
+
+@include tablet() {
+  .herosection3 {
+    grid-template-columns: repeat(1, 1fr);
+    height: 100vh;
+    h3 {
+      display: none;
+    }
+    .left {
+      height: 100%;
+      .title {
+        font-size: 2rem;
+      }
+      .subtitle {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+    .right {
+      height: 100%;
+      .title {
+        font-size: 2rem;
+      }
+      .subtitle {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@include mobile() {
+  .herosection3 {
+    grid-template-columns: repeat(1, 1fr);
+    height: 100vh;
+    h3 {
+      display: none;
+    }
+    .left {
+      height: 100%;
+      .title {
+        font-size: 1.5rem;
+      }
+      .subtitle {
+        font-size: 1.2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+    .right {
+      height: 100%;
+      .title {
+        font-size: 1.5rem;
+      }
+      .subtitle {
+        font-size: 1.2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}

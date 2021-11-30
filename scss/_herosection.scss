@@ -1,0 +1,75 @@
+@import "config";
+
+.herocontainer {
+  width: 100vw;
+  height: 100vh;
+  background: url("../images/Background/Desktop.jpeg");
+  background-size: cover;
+  background-position: center;
+  .background-blur {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: rgba($color: #bfc954, $alpha: 0.44);
+  }
+  .herosection {
+    text-align: center;
+    width: 731px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      color: white;
+      text-transform: uppercase;
+      font-size: 48px;
+      margin-bottom: 30px;
+      span {
+        font-size: 48px;
+        text-transform: uppercase;
+        color: $yellow;
+      }
+    }
+    p {
+      width: 500px;
+      font-size: 24px;
+      color: #e2e2e2;
+      margin-bottom: 20px;
+      text-transform: lowercase;
+    }
+  }
+}
+
+@include mobile() {
+  .herocontainer {
+    .herosection {
+      width: 90vw;
+      img {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 10px;
+      }
+      h1 {
+        font-size: 24px;
+        span {
+          font-size: 24px;
+        }
+      }
+      p {
+        width: 80%;
+        font-size: 100%;
+        color: #e2e2e2;
+        margin-bottom: 20px;
+        text-transform: lowercase;
+      }
+    }
+  }
+}

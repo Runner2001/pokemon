@@ -1,0 +1,997 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: "Bai Jamjuree", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  list-style-type: none;
+  text-decoration: none;
+  overflow-x: hidden;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+}
+
+.active {
+  color: #000;
+  font-weight: bold;
+}
+
+.container {
+  width: 90vw;
+  height: 100vh;
+  position: relative;
+  left: 5vw;
+  right: 5vw;
+}
+
+.btn {
+  padding: 8px 30px;
+  border-radius: 10px;
+  background: #ffdd00;
+  font-weight: bold;
+}
+
+* {
+  font-family: "Bai Jamjuree", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  list-style-type: none;
+  text-decoration: none;
+  overflow-x: hidden;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+}
+
+.active {
+  color: #000;
+  font-weight: bold;
+}
+
+.container {
+  width: 90vw;
+  height: 100vh;
+  position: relative;
+  left: 5vw;
+  right: 5vw;
+}
+
+.btn {
+  padding: 8px 30px;
+  border-radius: 10px;
+  background: #ffdd00;
+  font-weight: bold;
+}
+
+header {
+  background: #ffdd00;
+  -webkit-box-shadow: 0px 16px 40px black;
+          box-shadow: 0px 16px 40px black;
+  position: static;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+header nav {
+  padding: 1rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  align-items: center;
+}
+
+header nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .logo h3 {
+  font-size: 24px;
+}
+
+header nav .logo img {
+  width: 28px;
+  height: 28px;
+  margin-left: 10px;
+}
+
+header nav .menu-bar {
+  display: none;
+}
+
+header nav .navitem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+header nav .navitem .nav-item {
+  margin: 0 10px;
+  color: #363535;
+}
+
+@media screen and (max-width: 440px) {
+  header nav {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 60px;
+  }
+  header nav .logo h3 {
+    font-size: 24px;
+  }
+  header nav .logo img {
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
+  }
+  header nav .menu-bar {
+    display: inline-block;
+  }
+  header nav .item {
+    margin-top: 30px;
+    width: 100%;
+    display: none;
+  }
+  header nav .item .navitem {
+    background-color: #ffea00;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header nav .item .navitem .nav-item {
+    -webkit-columns: white;
+            columns: white;
+    margin: 10px 10px;
+    color: #363535;
+  }
+  header nav .show {
+    display: block;
+  }
+}
+
+* {
+  font-family: "Bai Jamjuree", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  list-style-type: none;
+  text-decoration: none;
+  overflow-x: hidden;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+}
+
+.active {
+  color: #000;
+  font-weight: bold;
+}
+
+.container {
+  width: 90vw;
+  height: 100vh;
+  position: relative;
+  left: 5vw;
+  right: 5vw;
+}
+
+.btn {
+  padding: 8px 30px;
+  border-radius: 10px;
+  background: #ffdd00;
+  font-weight: bold;
+}
+
+.herocontainer {
+  width: 100vw;
+  height: 100vh;
+  background: url("../images/Background/Desktop.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.herocontainer .background-blur {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background: rgba(191, 201, 84, 0.44);
+}
+
+.herocontainer .herosection {
+  text-align: center;
+  width: 731px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.herocontainer .herosection img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 10px;
+}
+
+.herocontainer .herosection h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.herocontainer .herosection h1 span {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #ffdd00;
+}
+
+.herocontainer .herosection p {
+  width: 500px;
+  font-size: 24px;
+  color: #e2e2e2;
+  margin-bottom: 20px;
+  text-transform: lowercase;
+}
+
+@media screen and (max-width: 440px) {
+  .herocontainer .herosection {
+    width: 90vw;
+  }
+  .herocontainer .herosection img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+  }
+  .herocontainer .herosection h1 {
+    font-size: 24px;
+  }
+  .herocontainer .herosection h1 span {
+    font-size: 24px;
+  }
+  .herocontainer .herosection p {
+    width: 80%;
+    font-size: 100%;
+    color: #e2e2e2;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+  }
+}
+
+* {
+  font-family: "Bai Jamjuree", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  list-style-type: none;
+  text-decoration: none;
+  overflow-x: hidden;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+}
+
+.active {
+  color: #000;
+  font-weight: bold;
+}
+
+.container {
+  width: 90vw;
+  height: 100vh;
+  position: relative;
+  left: 5vw;
+  right: 5vw;
+}
+
+.btn {
+  padding: 8px 30px;
+  border-radius: 10px;
+  background: #ffdd00;
+  font-weight: bold;
+}
+
+.herosection2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 90vh;
+}
+
+.herosection2 .left {
+  width: 100%;
+  height: 100%;
+  background: url("../images/Background/diamondandpearl.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.herosection2 .left .background {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(191, 201, 84, 0.44);
+}
+
+.herosection2 .left .background img {
+  width: 80%;
+}
+
+.herosection2 .right {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(40, 37, 102, 0.5)), to(rgba(205, 67, 216, 0.5)));
+  background: linear-gradient(to right, rgba(40, 37, 102, 0.5), rgba(205, 67, 216, 0.5));
+}
+
+.herosection2 .right .text {
+  max-width: 340px;
+}
+
+.herosection2 .right .text small {
+  font-size: 16px;
+  color: white;
+}
+
+.herosection2 .right .text h1 {
+  margin: 10px 0px;
+  font-size: 36px;
+}
+
+.herosection2 .right .text h3 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.herosection2 .right .text p {
+  margin-bottom: 20px;
+  color: #363535;
+}
+
+.herosection2 .right .text .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.herosection2 .right .text .footer .btn {
+  margin-right: 20px;
+}
+
+.herosection2 .right .text .footer h4 {
+  font-size: 18px;
+  font-weight: normal;
+  border-bottom: 5px solid #ffdd00;
+}
+
+@media screen and (max-width: 900px) {
+  .herosection2 {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .herosection2 .right .text {
+    width: 80%;
+  }
+  .herosection2 .right .text h1 {
+    font-size: 24px;
+  }
+  .herosection2 .right .text h3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .herosection2 {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .herosection2 .right .text {
+    width: 80%;
+  }
+  .herosection2 .right .text h1 {
+    font-size: 24px;
+  }
+  .herosection2 .right .text h3 {
+    font-size: 18px;
+  }
+}
+
+* {
+  font-family: "Bai Jamjuree", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  list-style-type: none;
+  text-decoration: none;
+  overflow-x: hidden;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+}
+
+.active {
+  color: #000;
+  font-weight: bold;
+}
+
+.container {
+  width: 90vw;
+  height: 100vh;
+  position: relative;
+  left: 5vw;
+  right: 5vw;
+}
+
+.btn {
+  padding: 8px 30px;
+  border-radius: 10px;
+  background: #ffdd00;
+  font-weight: bold;
+}
+
+.herosection3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+}
+
+.herosection3 h3 {
+  font-size: 24px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.herosection3 .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: rgba(255, 234, 0, 0.6);
+}
+
+.herosection3 .left .title {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.herosection3 .left .title img {
+  width: 28px;
+  height: 28px;
+}
+
+.herosection3 .left .subtitle {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.herosection3 .left p {
+  font-size: 1rem;
+  text-align: center;
+  max-width: 400px;
+  margin-bottom: 20px;
+  color: #363535;
+}
+
+.herosection3 .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #ffd000;
+}
+
+.herosection3 .right .title {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.herosection3 .right .subtitle {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.herosection3 .right p {
+  font-size: 1rem;
+  text-align: center;
+  max-width: 400px;
+  margin-bottom: 20px;
+  color: #363535;
+}
+
+@media screen and (max-width: 900px) {
+  .herosection3 {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    height: 100vh;
+  }
+  .herosection3 h3 {
+    display: none;
+  }
+  .herosection3 .left {
+    height: 100%;
+  }
+  .herosection3 .left .title {
+    font-size: 2rem;
+  }
+  .herosection3 .left .subtitle {
+    font-size: 1.5rem;
+  }
+  .herosection3 .left p {
+    font-size: 1rem;
+  }
+  .herosection3 .right {
+    height: 100%;
+  }
+  .herosection3 .right .title {
+    font-size: 2rem;
+  }
+  .herosection3 .right .subtitle {
+    font-size: 1.5rem;
+  }
+  .herosection3 .right p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .herosection3 {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    height: 100vh;
+  }
+  .herosection3 h3 {
+    display: none;
+  }
+  .herosection3 .left {
+    height: 100%;
+  }
+  .herosection3 .left .title {
+    font-size: 1.5rem;
+  }
+  .herosection3 .left .subtitle {
+    font-size: 1.2rem;
+  }
+  .herosection3 .left p {
+    font-size: 1rem;
+  }
+  .herosection3 .right {
+    height: 100%;
+  }
+  .herosection3 .right .title {
+    font-size: 1.5rem;
+  }
+  .herosection3 .right .subtitle {
+    font-size: 1.2rem;
+  }
+  .herosection3 .right p {
+    font-size: 1rem;
+  }
+}
+
+* {
+  font-family: "Bai Jamjuree", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  list-style-type: none;
+  text-decoration: none;
+  overflow-x: hidden;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+}
+
+.active {
+  color: #000;
+  font-weight: bold;
+}
+
+.container {
+  width: 90vw;
+  height: 100vh;
+  position: relative;
+  left: 5vw;
+  right: 5vw;
+}
+
+.btn {
+  padding: 8px 30px;
+  border-radius: 10px;
+  background: #ffdd00;
+  font-weight: bold;
+}
+
+.event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.event .heading {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.event .heading h3 {
+  font-size: 24px;
+  margin: 20px 0px;
+}
+
+.event .heading p {
+  font-size: 1rem;
+  width: 50%;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-bottom: 40px;
+}
+
+.event-item {
+  display: -ms-grid;
+  display: grid;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+      grid-template-areas: "first first second second" "first first third fourth";
+  grid-gap: 5px;
+  margin-bottom: 40px;
+  height: 600px;
+  cursor: pointer;
+}
+
+.event-item .item1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: first;
+  background-image: url("../images/Background/diamondandpearl.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.event-item .item2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: second;
+  background: url("../images/Background/unite-background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.event-item .item3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: third;
+  background: url("../images/Background/Pokemon Diamond And Pearl Wallpapers.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.event-item .item4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: fourth;
+  background: url("../images/Background/Kelvin on Twitter.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.eventbackground {
+  width: 100%;
+  height: 0%;
+  position: relative;
+  bottom: -100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.eventbackground h4 {
+  font-size: 26px;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: white;
+}
+
+.item1:hover .eventbackground {
+  height: 100%;
+  bottom: 0%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.item2:hover .eventbackground {
+  height: 100%;
+  bottom: 0%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.item3:hover .eventbackground {
+  height: 100%;
+  bottom: 0%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.item4:hover .eventbackground {
+  height: 100%;
+  bottom: 0%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 900px) {
+  .event-item {
+    gap: 0px;
+        grid-template-areas: "first first" "first first" "second second" "third fourth";
+  }
+  .eventbackground {
+    height: 100%;
+    bottom: 0%;
+  }
+  .eventbackground h4 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .event .heading p {
+    width: 70%;
+  }
+  .event-item {
+    gap: 0px;
+        grid-template-areas: "first first" "first first" "second second" "third fourth";
+  }
+  .background {
+    height: 100%;
+    bottom: 0%;
+  }
+  .background h4 {
+    font-size: 18px;
+  }
+}
+
+* {
+  font-family: "Bai Jamjuree", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  list-style-type: none;
+  text-decoration: none;
+  overflow-x: hidden;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+}
+
+.active {
+  color: #000;
+  font-weight: bold;
+}
+
+.container {
+  width: 90vw;
+  height: 100vh;
+  position: relative;
+  left: 5vw;
+  right: 5vw;
+}
+
+.btn {
+  padding: 8px 30px;
+  border-radius: 10px;
+  background: #ffdd00;
+  font-weight: bold;
+}
+
+footer {
+  background: #ffd000;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .first h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer .second h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer .second .social li {
+  text-transform: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .second .social li i {
+  font-size: 1.3rem;
+  margin-right: 5px;
+}
+
+footer .third h3 {
+  font-size: 24px;
+}
+
+footer .third h3 span {
+  font-size: 19px;
+}
+
+@media screen and (max-width: 440px) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer div {
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

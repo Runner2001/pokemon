@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap");
+
+$black: #000;
+$black-secondary: #363535;
+$white: #fff;
+$white-secondary: #e2e2e2;
+$yellow: #ffdd00;
+$light-yellow: #ffea00;
+$dark-yellow: #ffd000;
+$peral: rgba(#282566, 0.5);
+$diamond: rgba(#cd43d8, 0.5);
+
+* {
+  font-family: "Bai Jamjuree", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  list-style-type: none;
+  text-decoration: none;
+  overflow-x: hidden;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+}
+
+.active {
+  color: $black;
+  font-weight: bold;
+}
+.container {
+  width: 90vw;
+  height: 100vh;
+  position: relative;
+  left: 5vw;
+  right: 5vw;
+}
+.btn {
+  padding: 8px 30px;
+  border-radius: 10px;
+  background: $yellow;
+  font-weight: bold;
+}
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin mobile {
+  @media screen and (max-width: 440px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: 900px) {
+    @content;
+  }
+}
