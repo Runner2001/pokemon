@@ -2,8 +2,8 @@
 
 header {
   background: $yellow;
-  box-shadow: 0px 16px 40px rgba($black, 15%);
-  position: static;
+  box-shadow: 0px 4px 20px rgba(#363535, 4%);
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -41,38 +41,25 @@ header {
 @include mobile() {
   header {
     nav {
-      .logo {
-        h3 {
-          font-size: 24px;
-        }
-        img {
-          width: 28px;
-          height: 28px;
-          margin-left: 10px;
-        }
-      }
       flex-wrap: wrap;
-      height: 60px;
       .menu-bar {
         display: inline-block;
       }
       .item {
-        margin-top: 30px;
         width: 100%;
-        display: none;
         .navitem {
-          background-color: $light-yellow;
-          @include flex();
+          display: none;
           flex-direction: column;
+          padding: 1rem;
           .nav-item {
-            columns: white;
-            margin: 10px 10px;
-            color: #363535;
+            margin: 0.5rem 0;
           }
         }
       }
       .show {
-        display: block;
+        .navitem {
+          display: inline-block;
+        }
       }
     }
   }
