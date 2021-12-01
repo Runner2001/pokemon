@@ -367,7 +367,7 @@ header nav .navitem .nav-item {
 .herosection2 .left {
   width: 100%;
   height: 100%;
-  background: url("../images/Background/diamondandpearl.jpeg");
+  background: url("../images/Background/Dialga and Palkia_.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -403,8 +403,8 @@ header nav .navitem .nav-item {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(40, 37, 102, 0.5)), to(rgba(205, 67, 216, 0.5)));
-  background: linear-gradient(to right, rgba(40, 37, 102, 0.5), rgba(205, 67, 216, 0.5));
+  background: -webkit-gradient(linear, left top, right top, from(rgba(205, 67, 216, 0.5)), to(rgba(40, 37, 102, 0.5)));
+  background: linear-gradient(to right, rgba(205, 67, 216, 0.5), rgba(40, 37, 102, 0.5));
 }
 
 .herosection2 .right .text {
@@ -744,30 +744,18 @@ header nav .navitem .nav-item {
   cursor: pointer;
 }
 
-.event {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.event .heading {
+.heading {
   width: 100%;
   height: 100%;
   text-align: center;
 }
 
-.event .heading h3 {
+.heading h3 {
   font-size: 24px;
   margin: 20px 0px;
 }
 
-.event .heading p {
+.heading p {
   font-size: 1rem;
   width: 50%;
   position: relative;
@@ -777,132 +765,124 @@ header nav .navitem .nav-item {
   margin-bottom: 40px;
 }
 
-.event-item {
+.event-title {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.event {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.event .event-item {
+  height: 100%;
   display: -ms-grid;
   display: grid;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-      grid-template-areas: "first first second second" "first first third fourth";
-  grid-gap: 5px;
-  margin-bottom: 40px;
-  height: 600px;
+      grid-template-areas: "item1 item1 item2 item2" "item1 item1 item3 item4";
+  grid-gap: 10px;
+}
+
+.event .event-item .item {
   cursor: pointer;
 }
 
-.event-item .item1 {
+.event .event-item .item img {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.event .event-item .item .background {
+  width: 100%;
+  height: 0%;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.event .event-item .item:hover img {
+  scale: 1.1;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.event .event-item .item:hover .background {
+  height: 100%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+div:nth-child(1).item {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
-  grid-area: first;
-  background-image: url("../images/Background/diamondandpearl.jpeg");
-  background-size: cover;
-  background-position: center;
+  grid-area: item1;
+  position: relative;
+  overflow: hidden;
 }
 
-.event-item .item2 {
+div:nth-child(2).item {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   -ms-grid-column-span: 2;
-  grid-area: second;
-  background: url("../images/Background/unite-background.png");
-  background-size: cover;
-  background-position: center;
+  grid-area: item2;
+  position: relative;
+  overflow: hidden;
 }
 
-.event-item .item3 {
+div:nth-child(3).item {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
-  grid-area: third;
-  background: url("../images/Background/Pokemon Diamond And Pearl Wallpapers.jpeg");
-  background-size: cover;
-  background-position: center;
+  grid-area: item3;
+  position: relative;
+  overflow: hidden;
 }
 
-.event-item .item4 {
+div:nth-child(4).item {
   -ms-grid-row: 2;
   -ms-grid-column: 4;
-  grid-area: fourth;
-  background: url("../images/Background/Kelvin on Twitter.jpeg");
-  background-size: cover;
-  background-position: center;
-}
-
-.eventbackground {
-  width: 100%;
-  height: 0%;
+  grid-area: item4;
   position: relative;
-  bottom: -100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-}
-
-.eventbackground h4 {
-  font-size: 26px;
-  position: absolute;
-  bottom: 1rem;
-  left: 1rem;
-  color: white;
-}
-
-.item1:hover .eventbackground {
-  height: 100%;
-  bottom: 0%;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-}
-
-.item2:hover .eventbackground {
-  height: 100%;
-  bottom: 0%;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-}
-
-.item3:hover .eventbackground {
-  height: 100%;
-  bottom: 0%;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-}
-
-.item4:hover .eventbackground {
-  height: 100%;
-  bottom: 0%;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 900px) {
-  .event-item {
-    gap: 0px;
-        grid-template-areas: "first first" "first first" "second second" "third fourth";
+  .event .event-item {
+    width: 100vw;
+        grid-template-areas: "item1 item1 item1 item1" "item1 item1 item1 item1" "item2 item2 item2 item2" "item3 item3 item4 item4";
+    grid-gap: 5px;
   }
-  .eventbackground {
+  .event .event-item .item .background {
     height: 100%;
-    bottom: 0%;
   }
-  .eventbackground h4 {
-    font-size: 18px;
+  .event-title {
+    font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width: 440px) {
-  .event .heading p {
-    width: 70%;
-  }
   .event-item {
-    gap: 0px;
-        grid-template-areas: "first first" "first first" "second second" "third fourth";
+    width: 100vw;
+        grid-template-areas: "item1 item1" "item2 item2" "item3 item4";
+    grid-gap: 5px;
   }
-  .background {
-    height: 100%;
-    bottom: 0%;
-  }
-  .background h4 {
-    font-size: 18px;
+  .event-title {
+    font-size: 1.3rem;
   }
 }
 
