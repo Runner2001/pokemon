@@ -39,8 +39,9 @@ $diamond: rgba(#cd43d8, 0.5);
   padding: 8px 30px;
   border-radius: 10px;
   background: $yellow;
-  font-weight: bold;
+  font-weight: 600;
   color: black;
+  cursor: pointer;
 }
 
 @mixin flex {

@@ -2,7 +2,7 @@
 
 .herosection3 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   position: relative;
   width: 100vw;
   height: 80vh;
@@ -18,7 +18,7 @@
   .left {
     @include flex();
     flex-direction: column;
-    background: rgba($color: $light-yellow, $alpha: 0.6);
+    background: #f5eded;
     .title {
       font-size: 2rem;
       margin-bottom: 5px;
@@ -44,7 +44,7 @@
   .right {
     @include flex();
     flex-direction: column;
-    background: rgba($color: $dark-yellow, $alpha: 1);
+    background: #f1ff98;
 
     .title {
       font-size: 2rem;
@@ -67,7 +67,6 @@
 
 @include tablet() {
   .herosection3 {
-    grid-template-columns: repeat(1, 1fr);
     height: 100vh;
     h3 {
       display: none;
@@ -81,6 +80,7 @@
         font-size: 1.5rem;
       }
       p {
+        width: 80%;
         font-size: 1rem;
       }
     }
@@ -93,6 +93,7 @@
         font-size: 1.5rem;
       }
       p {
+        width: 80%;
         font-size: 1rem;
       }
     }
